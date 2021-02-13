@@ -165,7 +165,7 @@ p.headerTxt::after {
 h1.headerTxt {
   top: 35%;
   left: 10%;
-  max-width: 40%;
+  max-width: 33%;
   -moz-text-align-last: right;
   text-align-last: right;
   font-size: 2.5rem;
