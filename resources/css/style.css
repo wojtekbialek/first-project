@@ -46,9 +46,9 @@ html {
   background: linear-gradient(#2193b0, #6dd5ed 99%);
   z-index: 1;
   opacity: 0;
-  -webkit-transition: .5s linear;
-  -o-transition: .5s linear;
-  transition: .5s linear;
+  -webkit-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+  transition: .3s ease-in;
 }
 
 .menu ul {
@@ -269,6 +269,7 @@ main {
   line-height: 3rem;
   text-align: center;
   font-size: 2.1rem;
+  font-weight: 400;
 }
 
 .main>p:nth-of-type(2) {
@@ -405,6 +406,11 @@ textarea {
   transition: .25s;
 }
 
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: var(--smokeyBlack);
+}
+
 .contact textarea {
   width: 75%;
   max-width: 600px;
@@ -475,7 +481,7 @@ textarea {
 }
 
 .fa-instagram {
-  color: rgb(138, 138, 138);
+  color: #fff;
 }
 
 .footer {
